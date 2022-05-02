@@ -38,3 +38,8 @@ footer {
     line-height: 50px;
     text-align: center;
 }
+
+.card-fork {
+    border-radius: 10px;
+    
+}
