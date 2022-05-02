@@ -1,0 +1,40 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.collapse {
+    justify-content: end;   
+}
+
+.navbar-link a ::after { /*no lo toma*/
+    content: "|";
+    width: 20px;
+    height: 10px;
+    background-color: #fff;
+}
+
+.Hero-Section {
+    background-image:url(/assets/img/portada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+h2 {
+    width: 100%;
+    height: 60px;
+    padding-top: 10px;
+    text-align: center;
+    font-weight: 300;
+}
+.card {
+    background-color: #fff;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
